@@ -1,0 +1,13 @@
+function validate(){
+	var name=document.getElementById('name');
+	
+	if(name==''){
+		alert("Please inser your name");
+		return false;
+	}
+	
+	else{
+		return true;
+	}
+		
+}
